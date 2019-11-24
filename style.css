@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+body {
+    background: #F2F2F2;
+}
+#c {
+    display: block;
+    margin: 20px auto 0;
+}
+#info {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    width: auto;
+    max-width: 380px;
+    height: auto;
+    background: #f2f2f2;
+    border-bottom-right-radius: 10px;
+    border:1px solid #333;
+}
+#top {
+    background: #fff;
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-bottom: 1px solid #eee;
+}
